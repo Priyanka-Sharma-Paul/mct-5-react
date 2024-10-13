@@ -32,7 +32,7 @@ const Header = (props) => {
                 aria-label="Search"
                 ref={inputRef}
               />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="outline-success" type='submit'>Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>
